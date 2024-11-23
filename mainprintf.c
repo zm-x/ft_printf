@@ -88,17 +88,3 @@ int	ft_printf(const char *str, ...)
 	va_end(args);
 	return (i);
 }
-/*
-int	main(void)
-{
-	//char	*str;
-	int		i;
-	//char c = 'a';
-
-	//str = "hello";
-	//unsigned long long k = 18446744073709551615;
-	i = ft_printf("hello\n");
-	ft_printf("return of copy = %d\n", i);
-	i = printf("hello\n");
-	printf("return of original = %d\n", i);
-}*/
