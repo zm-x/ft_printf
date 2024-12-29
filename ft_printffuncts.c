@@ -99,7 +99,6 @@ int	ft_puthexa(unsigned int nm, int p)
 	i = 0;
 	while (str[i])
 		len += ft_putchar(str[i++]);
-	free(str);
 	return (len);
 }
 
